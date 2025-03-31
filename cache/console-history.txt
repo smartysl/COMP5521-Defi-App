@@ -1,0 +1,29 @@
+Alpha.balanceOf('0x87D1dE6fD9ECF6465c385c8f6E2499e47BA2bb82')
+await Beta.approve('0x87D1dE6fD9ECF6465c385c8f6E2499e47BA2bb82', ethers.parseEther("1000000"))
+await Alpha.approve('0x87D1dE6fD9ECF6465c385c8f6E2499e47BA2bb82', ethers.parseEther("1000000"))
+const pool = Pool.attach('0x5FC8d32690cc91D4c39d9d3abcBD16989F875707')
+const Pool = await hre.ethers.getContractFactory("Pool");
+const Beta = NewToken.attach('0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9')
+- Preview
+const Alpha = NewToken.attach('0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9')
+const NewToken = await hre.ethers.getContractFactory("NewToken");
+await pool.addLiquidity(ethers.parseEther("1000"))
+await Beta.approve('0x87D1dE6fD9ECF6465c385c8f6E2499e47BA2bb82', ethers.parseEther("1000000"))
+await Alpha.approve('0x87D1dE6fD9ECF6465c385c8f6E2499e47BA2bb82', ethers.parseEther("1000000"))
+const Beta = NewToken.attach('0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9')
+const Alpha = NewToken.attach('0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9')
+const NewToken = await hre.ethers.getContractFactory("NewToken");
+await Alpha.approve('0x87D1dE6fD9ECF6465c385c8f6E2499e47BA2bb82', ethers.parseEther("1000000"))
+const pool = Pool.attach('0x5FC8d32690cc91D4c39d9d3abcBD16989F875707')
+const Pool = await hre.ethers.getContractFactory("Pool");
+const pool = Pool.attach('0x5FC8d32690cc91D4c39d9d3abcBD16989F875707')
+const pool = Pool.attach('0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0')
+const Pool = await hre.ethers.getContractFactory("Pool");
+await Alpha.transfer('0x87D1dE6fD9ECF6465c385c8f6E2499e47BA2bb82', 100000000000000000000000n)
+const Alpha = NewToken.attach('0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9')
+const NewToken = await hre.ethers.getContractFactory("NewToken");
+await Beta.transfer('0xB8f184757Be5482E675B35541581e696A094d85c', 100000000000000000000000n)
+const Beta = NewToken.attach('0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512')
+await Alpha.transfer('0xB8f184757Be5482E675B35541581e696A094d85c', 100000000000000000000000n)
+const Alpha = NewToken.attach('0x5FbDB2315678afecb367f032d93F642f64180aa3')
+const NewToken = await hre.ethers.getContractFactory("NewToken");
