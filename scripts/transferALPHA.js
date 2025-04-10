@@ -1,12 +1,12 @@
 const { ethers } = require("hardhat");
-const addresses = require("/Users/shilinyu/dapp/workspace/frontend/src/utils/deployed-addresses.json"); 
+const addresses = require("/Users/jc/Desktop/block-chain/COMP5521-Defi-App/frontend/src/utils/deployed-addresses.json"); 
 
 async function main() {
   // Connect to the Hardhat network
   const provider = new ethers.JsonRpcProvider("http://127.0.0.1:8545");
 
   // Replace with the address of the recipient account
-  const recipientAddress = "0x87D1dE6fD9ECF6465c385c8f6E2499e47BA2bb82"; // My address (from MetaMask)
+  const recipientAddress = "0x8a84F62727a93d4d3Cfb2f7B7507dFeD15d1cce4"; // My address (from MetaMask)
 
   const NewToken = await hre.ethers.getContractFactory("NewToken");
   const Alpha = NewToken.attach(addresses.token0);
