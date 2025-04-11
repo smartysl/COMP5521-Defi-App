@@ -1,3 +1,4 @@
+require('dotenv').config();
 const { ethers } = require("hardhat");
 
 async function main() {
@@ -9,7 +10,7 @@ async function main() {
   const senderWallet = new ethers.Wallet(senderPrivateKey, provider);
 
   // Replace with the address of the recipient account
-  const recipientAddress = "0x8a84F62727a93d4d3Cfb2f7B7507dFeD15d1cce4"; // Your address (from MetaMask)
+  const recipientAddress = process.env.RECIPIENT_ADDRESS;
 
   // Amount to transfer (in Ether)
   const amountInEther = "1000"; // 1 ETH
