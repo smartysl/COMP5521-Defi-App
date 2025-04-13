@@ -84,3 +84,5 @@ npm start
 # Access the DApp at
 http://localhost:3000
 ```
+## 7. Video Demo
+[点击下载视频](https://github.com/smartysl/COMP5521-Defi-App/releases/download/v2.0/demo.mp4)
