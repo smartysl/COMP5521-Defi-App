@@ -68,10 +68,16 @@ cd ..
 # Run the tests
 npx hardhat test
 ```
+# Switch to the directory where the front-end project is located
+cd frontend/
+# Start the development server for the front-end project
+npm start
 
 ## 6. Running and Deployment
 - **Local Run**:
 ```bash
+# Switch to the directory
+cd ..
 # Start Hardhat local development node, at COMP5521-Defi-App/
 npx hardhat node
 
@@ -82,10 +88,7 @@ npx hardhat run scripts/transferDF.js --network localhost
 npx hardhat run scripts/transferALPHA.js --network localhost
 npx hardhat run scripts/transferBETA.js --network localhost
 
-# Switch to the directory where the front-end project is located
-cd frontend/
-# Start the development server for the front-end project
-npm start
+
 # Access the DApp at
 http://localhost:3000
 ```
