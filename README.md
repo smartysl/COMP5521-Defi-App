@@ -67,12 +67,11 @@ Introduce the testing framework and test cases used in the project.
 cd ..
 # Run the tests
 npx hardhat test
-```
 # Switch to the directory where the front-end project is located
 cd frontend/
 # Start the development server for the front-end project
 npm start
-
+```
 ## 6. Running and Deployment
 - **Local Run**:
 ```bash
