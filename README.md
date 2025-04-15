@@ -43,6 +43,8 @@ When users want to opt out of liquidity provision, they can use the LP tokens th
 ```bash
 # Clone the project repository
 git clone https://github.com/smartysl/COMP5521-Defi-App.git
+# Navigate to the project directory
+cd COMP5521-Defi-App/
 # Install the dependencies
 npm install
 # Navigate to the project directory
@@ -68,14 +70,15 @@ npx hardhat test
 ## 6. Running and Deployment
 - **Local Run**:
 ```bash
-# Start Hardhat local development node
+# Start Hardhat local development node, at COMP5521-Defi-App/
 npx hardhat node
 
 # This command is used to deploy smart contracts on the local Hardhat network.
 npx hardhat run --network localhost scripts/deploy.js
 # Transfer operations related to tokens or contracts.
+npx hardhat run scripts/transferDF.js --network localhost
 npx hardhat run scripts/transferALPHA.js --network localhost
-npx hardhat run scripts/transferBETA.js --network localhos
+npx hardhat run scripts/transferBETA.js --network localhost
 
 # Switch to the directory where the front-end project is located
 cd frontend/
