@@ -63,6 +63,8 @@ npm install
 ## 5. Testing Instructions
 Introduce the testing framework and test cases used in the project. 
 ```bash
+# Switch to the directory
+cd ..
 # Run the tests
 npx hardhat test
 ```
